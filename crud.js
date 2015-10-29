@@ -103,7 +103,7 @@ $(function() {
 		var downvote = $('<button class="fa fa-thumbs-down fa-2x"></button>');
 		vote.append(downvote);
 
-		// This creates to button to delete the review
+		// This creates to button to delete the review.
 		var button = $('<button class="fa fa-trash-o btn-s"></button>');
 		item.append(button);
 		button.attr('id', 'trash');
