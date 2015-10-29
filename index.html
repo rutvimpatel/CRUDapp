@@ -6,6 +6,7 @@
 
 <html>    
     <head>
+        <!-- This area imports the necessary files to make Jquery, Bootstrap, Parse, and raty work -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,8 +27,10 @@
     </head>
 
     <body>
+
         <div class="container">
             <h1>Product Review for: The Footmobile </h1> 
+            <!-- This splits the webpage into different columns when the size changes -->
             <div class = "row">
                 <div class = "col-lg-6">
                     <img id = "product" height = "400px" src = "foot.jpg" alt = "img of Footmobile"> </img>
@@ -40,6 +43,7 @@
             <div class = "col-lg-6"> 
                 <h2>Write your own review!</h2>
                 <form>
+                    <!-- This is where the user inputs the review -->
                     <div class="form-group">
                         <label for="opinion">Overall Opinion</label>
                         <input class = "form-control" id="opinion" placeholder = "What is your overall opinion?"></input>
@@ -51,12 +55,15 @@
                     <div id = "stars">
                      
                     </div>
+                    <!-- This button will submit the form, and record the review -->
                     <button class="btn btn-primary" type="submit">Submit Review</button>
                 </form>
             </div>
         </div>
+        <!-- This is where the reviews will be  -->
         <div class = "container"> 
             <h2>Reviews:</h2>
+            <!-- The reviews will specifically be in this div -->
             <div id = "reviewList">
             </div>
         </div>

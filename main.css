@@ -1,45 +1,61 @@
+
+/*Rutvi Patel
+Challenge 4
+INFO 343 C*/
+
+/*This allows the page to use bootstrap and font awesome*/
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
+/*This sets the background color of the page*/
 body {
 	background-color: #f6f0e8;
 }
 
+/*This gives styles to the main heading of the page*/
 h1 {
 	text-align: center;
 	padding-bottom: 1em;
 }
 
+/*This styles the picture of the product*/
 #product {
-		border-radius: 5px;
-		margin-bottom: 1em;
+	border-radius: 5px;
+	margin-bottom: 1em;
 }
 
+/*This allows the styles to change on a screen smaller than 768px*/
 @media screen and (max-width: 768px) {
+	/*The image will become smaller on smaller screens*/
 	#product {
 		height: 200px;
 	}
 }
 
+/*This will style all buttons*/
 button {
 	margin: 0.1em;
 }
 
+/*This will style the stars*/
 .fa-star {
 	margin-left: 0.2em;
 }
 
+/*These are the main review*/
 #review {
 	font-size: 12pt;
 	padding-top: 0.5em;
 	padding-left: 0.5em;
 }
 
+/*This gives styles to the title of the review*/
 #title {
 	padding-top: 0.5em;
 	padding-left: 0.5em;
 }
 
+/*This provides styles for the individual reviews that are displayed*/
 .review {
 	margin-right: auto;
 	margin-left: auto;
@@ -49,15 +65,17 @@ button {
 	background-color: #E6E6E6;
 }
 
+/*Styles each paragraph in each review*/
 .review p {
 	margin: 0.2em;
 }
-
+/*styles the delete button*/
 #trash {
 	padding: .25em;
 	margin: 0.5em;
 }
 
+/*styles the thumbs*/
 .vote {
 	margin: 0.5em;
 }
