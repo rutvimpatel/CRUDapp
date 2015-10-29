@@ -1,0 +1,63 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	background-color: #f6f0e8;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#product {
+		border-radius: 5px;
+		margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+	#product {
+		height: 200px;
+	}
+}
+
+button {
+	margin: 0.1em;
+}
+
+.fa-star {
+	margin-left: 0.2em;
+}
+
+#review {
+	font-size: 12pt;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+}
+
+#title {
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+}
+
+.review {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	width: 90%;
+	box-shadow: -5px 5px 5px #888888;
+	background-color: #E6E6E6;
+}
+
+.review p {
+	margin: 0.2em;
+}
+
+#trash {
+	padding: .25em;
+	margin: 0.5em;
+}
+
+.vote {
+	margin: 0.5em;
+}
